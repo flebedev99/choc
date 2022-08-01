@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background-color: #bb6f39;
+}
+img.ts {
+  width: 50px;
+  height: 50px;
+  left: 5px;
+  top: 5px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 10px;
+  transition: 1s;
+}
+img.mainbtn {
+  width: 400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: 0.5s;
+  transform: rotate(-90deg);
+  border: solid chocolate;
+  border-radius: 10px;
+  z-index: 2;
+}
+div.maindiv {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  background-color: #913f05;
+  box-shadow: 0px 30px 70px 15px #3d1a00;
+  transition: 0.5s;
+}
+label.scorE {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  margin: auto;
+  text-align: center;
+  color: #220e00;
+  transition: 0.2s;
+}
+button.upbtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 65px;
+  height: 50px;
+  border: solid;
+  border-color: rgb(70, 28, 0);
+  background-color: #582802;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+div.upgrades {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 600px;
+  height: 0px;
+  background-color: #913f05;
+  overflow-y: hidden;
+  border: solid #5e2700;
+  transition: 0.5s;
+  border-width: 3px;
+  z-index: 5;
+  border-radius: 10px;
+  visibility: hidden;
+}
+button.cursor {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 100px;
+  height: 50px;
+  border: solid;
+  border-color: rgb(112, 45, 0);
+  background-color: #863e02;
+  border-radius: 10px;
+}
+p.author {
+  position: absolute;
+  top: 50px;
+  right: 5px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}

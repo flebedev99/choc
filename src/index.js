@@ -7,7 +7,7 @@ const clicksound = document.getElementById("click");
 const js = document.getElementById("js");
 const Div = document.getElementById("div");
 
-let score = 0;
+let score = document.cookie;
 
 //game animations
 function animations() {
@@ -71,6 +71,7 @@ function cursor() {
   setTimeout(cursor, 5000);
 }
 function updatescore() {
+  document.cookie = score;
   scored.innerText = "Chocolates: " + score;
   scored.style.fontSize = "20px";
   setTimeout(smallscore, 100);
